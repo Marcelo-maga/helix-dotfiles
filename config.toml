@@ -1,0 +1,23 @@
+theme="sonokai"
+
+[editor]
+line-number = "relative"
+mouse = true
+bufferline = "multiple"
+auto-completion = true
+auto-format = true
+completion-replace = true
+
+[editor.lsp]
+display-messages = true
+
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.file-picker]
+hidden = false
+git-ignore = true
